@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/point.dir/day1/point.c.obj"
+  "CMakeFiles/point.dir/day1/structConcept.c.obj"
   "libpoint.dll.a"
   "point.exe"
   "point.exe.manifest"

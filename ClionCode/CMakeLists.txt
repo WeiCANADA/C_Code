@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 
 
-add_executable(point day1/point.c)
+
+add_executable(structConcept day1/structConcept.c)

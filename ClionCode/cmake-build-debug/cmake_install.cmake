@@ -1,4 +1,4 @@
-# Install script for directory: D:/Ccode/ClionCode
+# Install script for directory: E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Ccode/ClionCode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

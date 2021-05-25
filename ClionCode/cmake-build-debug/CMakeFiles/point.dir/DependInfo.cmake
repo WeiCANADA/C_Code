@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Ccode/ClionCode/day1/point.c" "D:/Ccode/ClionCode/cmake-build-debug/CMakeFiles/point.dir/day1/point.c.obj"
+  "E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/day1/point.c" "E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/point.dir/day1/point.c.obj"
+  "E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/day1/structConcept.c" "E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/point.dir/day1/structConcept.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

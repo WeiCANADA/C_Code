@@ -3,3 +3,5 @@
 
 CMakeFiles/point.dir/day1/point.c.obj: ../day1/point.c
 
+CMakeFiles/point.dir/day1/structConcept.c.obj: ../day1/structConcept.c
+

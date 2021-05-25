@@ -61,10 +61,10 @@ RM = "D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Ccode\ClionCode
+CMAKE_SOURCE_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Ccode\ClionCode\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/point.dir/depend.make
@@ -77,30 +77,45 @@ include CMakeFiles/point.dir/flags.make
 
 CMakeFiles/point.dir/day1/point.c.obj: CMakeFiles/point.dir/flags.make
 CMakeFiles/point.dir/day1/point.c.obj: ../day1/point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Ccode\ClionCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/point.dir/day1/point.c.obj"
-	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\point.dir\day1\point.c.obj -c D:\Ccode\ClionCode\day1\point.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/point.dir/day1/point.c.obj"
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\point.dir\day1\point.c.obj -c "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\point.c"
 
 CMakeFiles/point.dir/day1/point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/point.dir/day1/point.c.i"
-	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Ccode\ClionCode\day1\point.c > CMakeFiles\point.dir\day1\point.c.i
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\point.c" > CMakeFiles\point.dir\day1\point.c.i
 
 CMakeFiles/point.dir/day1/point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/point.dir/day1/point.c.s"
-	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Ccode\ClionCode\day1\point.c -o CMakeFiles\point.dir\day1\point.c.s
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\point.c" -o CMakeFiles\point.dir\day1\point.c.s
+
+CMakeFiles/point.dir/day1/structConcept.c.obj: CMakeFiles/point.dir/flags.make
+CMakeFiles/point.dir/day1/structConcept.c.obj: ../day1/structConcept.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/point.dir/day1/structConcept.c.obj"
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\point.dir\day1\structConcept.c.obj -c "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\structConcept.c"
+
+CMakeFiles/point.dir/day1/structConcept.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/point.dir/day1/structConcept.c.i"
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\structConcept.c" > CMakeFiles\point.dir\day1\structConcept.c.i
+
+CMakeFiles/point.dir/day1/structConcept.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/point.dir/day1/structConcept.c.s"
+	D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\day1\structConcept.c" -o CMakeFiles\point.dir\day1\structConcept.c.s
 
 # Object files for target point
 point_OBJECTS = \
-"CMakeFiles/point.dir/day1/point.c.obj"
+"CMakeFiles/point.dir/day1/point.c.obj" \
+"CMakeFiles/point.dir/day1/structConcept.c.obj"
 
 # External object files for target point
 point_EXTERNAL_OBJECTS =
 
 point.exe: CMakeFiles/point.dir/day1/point.c.obj
+point.exe: CMakeFiles/point.dir/day1/structConcept.c.obj
 point.exe: CMakeFiles/point.dir/build.make
 point.exe: CMakeFiles/point.dir/linklibs.rsp
 point.exe: CMakeFiles/point.dir/objects1.rsp
 point.exe: CMakeFiles/point.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Ccode\ClionCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable point.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable point.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\point.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +128,6 @@ CMakeFiles/point.dir/clean:
 .PHONY : CMakeFiles/point.dir/clean
 
 CMakeFiles/point.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Ccode\ClionCode D:\Ccode\ClionCode D:\Ccode\ClionCode\cmake-build-debug D:\Ccode\ClionCode\cmake-build-debug D:\Ccode\ClionCode\cmake-build-debug\CMakeFiles\point.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles\point.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/point.dir/depend
 

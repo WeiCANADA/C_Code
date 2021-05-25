@@ -66,10 +66,10 @@ RM = "D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Ccode\ClionCode
+CMAKE_SOURCE_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Ccode\ClionCode\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Ccode\ClionCode\cmake-build-debug\CMakeFiles D:\Ccode\ClionCode\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Ccode\ClionCode\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named point
+# Target rules for targets named structConcept
 
 # Build rule for target.
-point: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 point
-.PHONY : point
+structConcept: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 structConcept
+.PHONY : structConcept
 
 # fast build rule for target.
-point/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\point.dir\build.make CMakeFiles/point.dir/build
-.PHONY : point/fast
+structConcept/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/build
+.PHONY : structConcept/fast
 
-day1/point.obj: day1/point.c.obj
+day1/structConcept.obj: day1/structConcept.c.obj
 
-.PHONY : day1/point.obj
+.PHONY : day1/structConcept.obj
 
 # target to build an object file
-day1/point.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\point.dir\build.make CMakeFiles/point.dir/day1/point.c.obj
-.PHONY : day1/point.c.obj
+day1/structConcept.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.obj
+.PHONY : day1/structConcept.c.obj
 
-day1/point.i: day1/point.c.i
+day1/structConcept.i: day1/structConcept.c.i
 
-.PHONY : day1/point.i
+.PHONY : day1/structConcept.i
 
 # target to preprocess a source file
-day1/point.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\point.dir\build.make CMakeFiles/point.dir/day1/point.c.i
-.PHONY : day1/point.c.i
+day1/structConcept.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.i
+.PHONY : day1/structConcept.c.i
 
-day1/point.s: day1/point.c.s
+day1/structConcept.s: day1/structConcept.c.s
 
-.PHONY : day1/point.s
+.PHONY : day1/structConcept.s
 
 # target to generate assembly for a file
-day1/point.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\point.dir\build.make CMakeFiles/point.dir/day1/point.c.s
-.PHONY : day1/point.c.s
+day1/structConcept.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.s
+.PHONY : day1/structConcept.c.s
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... point
-	@echo ... day1/point.obj
-	@echo ... day1/point.i
-	@echo ... day1/point.s
+	@echo ... structConcept
+	@echo ... day1/structConcept.obj
+	@echo ... day1/structConcept.i
+	@echo ... day1/structConcept.s
 .PHONY : help
 
 

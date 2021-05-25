@@ -13,4 +13,9 @@ int main()
     printf("point size :%llu\n", sizeof(p));
     printf(" *p 的地址%d\n", *p);
 
+    printf("%llu\n", sizeof(char*));
+    printf("%llu\n", sizeof(int*));
+    printf("%llu\n", sizeof(short*));
+    printf("%llu\n", sizeof(double *));
+
 }
