@@ -1,0 +1,3 @@
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\pp.dir/objects.a
+D:\CLION2~1.1\mingw64\mingw64\bin\ar.exe cr CMakeFiles\pp.dir/objects.a @CMakeFiles\pp.dir\objects1.rsp
+D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\pp.dir/objects.a -Wl,--no-whole-archive -o pp.exe -Wl,--out-implib,libpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pp.dir\linklibs.rsp

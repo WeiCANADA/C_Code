@@ -1,0 +1,3 @@
+D:/C/FishC/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+D:/C/FishC/cmake-build-debug-mingw/CMakeFiles/p0.dir
+D:/C/FishC/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir

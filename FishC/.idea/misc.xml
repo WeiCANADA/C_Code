@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/s1e17array" />
+      <file path="$PROJECT_DIR$/s1e19StringFunctions" />
+      <file path="$PROJECT_DIR$/s1e20_2Darray" />
+      <file path="$PROJECT_DIR$/s1e21point" />
+      <file path="$PROJECT_DIR$/s1e22point_1" />
+    </sourceRoots>
+  </component>
+</project>
