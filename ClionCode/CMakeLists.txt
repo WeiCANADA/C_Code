@@ -7,3 +7,4 @@ set(CMAKE_C_STANDARD 99)
 
 
 add_executable(structConcept day1/structConcept.c)
+add_executable(p0 day2/p0.c)
