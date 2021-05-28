@@ -71,7 +71,9 @@ CMAKE_BINARY_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/structConcept.dir/all
+all: CMakeFiles/maxFunction.dir/all
+all: CMakeFiles/p3.dir/all
+all: CMakeFiles/concept.dir/all
 
 .PHONY : all
 
@@ -81,36 +83,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/structConcept.dir/clean
+clean: CMakeFiles/maxFunction.dir/clean
+clean: CMakeFiles/p3.dir/clean
+clean: CMakeFiles/concept.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/structConcept.dir
+# Target rules for target CMakeFiles/maxFunction.dir
 
 # All Build rule for target.
-CMakeFiles/structConcept.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target structConcept"
-.PHONY : CMakeFiles/structConcept.dir/all
+CMakeFiles/maxFunction.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=7,8,9 "Built target maxFunction"
+.PHONY : CMakeFiles/maxFunction.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/structConcept.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/structConcept.dir/all
+CMakeFiles/maxFunction.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/maxFunction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/structConcept.dir/rule
+.PHONY : CMakeFiles/maxFunction.dir/rule
 
 # Convenience name for target.
-structConcept: CMakeFiles/structConcept.dir/rule
+maxFunction: CMakeFiles/maxFunction.dir/rule
 
-.PHONY : structConcept
+.PHONY : maxFunction
 
 # clean rule for target.
-CMakeFiles/structConcept.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/clean
-.PHONY : CMakeFiles/structConcept.dir/clean
+CMakeFiles/maxFunction.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/clean
+.PHONY : CMakeFiles/maxFunction.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p3.dir
+
+# All Build rule for target.
+CMakeFiles/p3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=10,11 "Built target p3"
+.PHONY : CMakeFiles/p3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/p3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/p3.dir/rule
+
+# Convenience name for target.
+p3: CMakeFiles/p3.dir/rule
+
+.PHONY : p3
+
+# clean rule for target.
+CMakeFiles/p3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/clean
+.PHONY : CMakeFiles/p3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/concept.dir
+
+# All Build rule for target.
+CMakeFiles/concept.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target concept"
+.PHONY : CMakeFiles/concept.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/concept.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/concept.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive - University of New Brunswick\githubRepository\C_Code\ClionCode\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/concept.dir/rule
+
+# Convenience name for target.
+concept: CMakeFiles/concept.dir/rule
+
+.PHONY : concept
+
+# clean rule for target.
+CMakeFiles/concept.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/clean
+.PHONY : CMakeFiles/concept.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

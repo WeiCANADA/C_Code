@@ -17,26 +17,18 @@
 					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="structConcept">
-				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/structConcept.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 structConcept"/>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="structConcept/fast">
-				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/structConcept.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="maxFunction">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/maxFunction.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -47,7 +39,97 @@
 					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 structConcept/fast"/>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxFunction"/>
+					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxFunction/fast">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/maxFunction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxFunction/fast"/>
+					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p3">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/p3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 p3"/>
+					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p3/fast">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/p3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 p3/fast"/>
+					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="concept">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/concept.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 concept"/>
+					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="concept/fast">
+				<Option output="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/concept.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2021.1.1/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 concept/fast"/>
 					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -63,19 +145,36 @@
 					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CLION2~1.1/mingw64/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/day1/structConcept.c">
-			<Option target="structConcept"/>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/functionDeclarations/maxFunction.c">
+			<Option target="maxFunction"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/functionDeclarations/myMath1.h">
+			<Option target="maxFunction"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/functionDeclarations/text.c">
+			<Option target="maxFunction"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/p3.c">
+			<Option target="p3"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/concept.c">
+			<Option target="concept"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/myFactorial.c">
+			<Option target="concept"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/myFib.c">
+			<Option target="concept"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/myRecursive.h">
+			<Option target="concept"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/my_strlen.c">
+			<Option target="concept"/>
+		</Unit>
+		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/functionsStudy/recursiveStudy/test.c">
+			<Option target="concept"/>
 		</Unit>
 		<Unit filename="E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

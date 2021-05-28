@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = "E:\OneDrive - University of New Brunswick\githubRepository\C
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,44 +129,259 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named structConcept
+# Target rules for targets named maxFunction
 
 # Build rule for target.
-structConcept: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 structConcept
-.PHONY : structConcept
+maxFunction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxFunction
+.PHONY : maxFunction
 
 # fast build rule for target.
-structConcept/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/build
-.PHONY : structConcept/fast
+maxFunction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/build
+.PHONY : maxFunction/fast
 
-day1/structConcept.obj: day1/structConcept.c.obj
+#=============================================================================
+# Target rules for targets named p3
 
-.PHONY : day1/structConcept.obj
+# Build rule for target.
+p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p3
+.PHONY : p3
+
+# fast build rule for target.
+p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/build
+.PHONY : p3/fast
+
+#=============================================================================
+# Target rules for targets named concept
+
+# Build rule for target.
+concept: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 concept
+.PHONY : concept
+
+# fast build rule for target.
+concept/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/build
+.PHONY : concept/fast
+
+functionsStudy/functionDeclarations/maxFunction.obj: functionsStudy/functionDeclarations/maxFunction.c.obj
+
+.PHONY : functionsStudy/functionDeclarations/maxFunction.obj
 
 # target to build an object file
-day1/structConcept.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.obj
-.PHONY : day1/structConcept.c.obj
+functionsStudy/functionDeclarations/maxFunction.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/maxFunction.c.obj
+.PHONY : functionsStudy/functionDeclarations/maxFunction.c.obj
 
-day1/structConcept.i: day1/structConcept.c.i
+functionsStudy/functionDeclarations/maxFunction.i: functionsStudy/functionDeclarations/maxFunction.c.i
 
-.PHONY : day1/structConcept.i
+.PHONY : functionsStudy/functionDeclarations/maxFunction.i
 
 # target to preprocess a source file
-day1/structConcept.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.i
-.PHONY : day1/structConcept.c.i
+functionsStudy/functionDeclarations/maxFunction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/maxFunction.c.i
+.PHONY : functionsStudy/functionDeclarations/maxFunction.c.i
 
-day1/structConcept.s: day1/structConcept.c.s
+functionsStudy/functionDeclarations/maxFunction.s: functionsStudy/functionDeclarations/maxFunction.c.s
 
-.PHONY : day1/structConcept.s
+.PHONY : functionsStudy/functionDeclarations/maxFunction.s
 
 # target to generate assembly for a file
-day1/structConcept.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structConcept.dir\build.make CMakeFiles/structConcept.dir/day1/structConcept.c.s
-.PHONY : day1/structConcept.c.s
+functionsStudy/functionDeclarations/maxFunction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/maxFunction.c.s
+.PHONY : functionsStudy/functionDeclarations/maxFunction.c.s
+
+functionsStudy/functionDeclarations/text.obj: functionsStudy/functionDeclarations/text.c.obj
+
+.PHONY : functionsStudy/functionDeclarations/text.obj
+
+# target to build an object file
+functionsStudy/functionDeclarations/text.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/text.c.obj
+.PHONY : functionsStudy/functionDeclarations/text.c.obj
+
+functionsStudy/functionDeclarations/text.i: functionsStudy/functionDeclarations/text.c.i
+
+.PHONY : functionsStudy/functionDeclarations/text.i
+
+# target to preprocess a source file
+functionsStudy/functionDeclarations/text.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/text.c.i
+.PHONY : functionsStudy/functionDeclarations/text.c.i
+
+functionsStudy/functionDeclarations/text.s: functionsStudy/functionDeclarations/text.c.s
+
+.PHONY : functionsStudy/functionDeclarations/text.s
+
+# target to generate assembly for a file
+functionsStudy/functionDeclarations/text.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxFunction.dir\build.make CMakeFiles/maxFunction.dir/functionsStudy/functionDeclarations/text.c.s
+.PHONY : functionsStudy/functionDeclarations/text.c.s
+
+functionsStudy/p3.obj: functionsStudy/p3.c.obj
+
+.PHONY : functionsStudy/p3.obj
+
+# target to build an object file
+functionsStudy/p3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/functionsStudy/p3.c.obj
+.PHONY : functionsStudy/p3.c.obj
+
+functionsStudy/p3.i: functionsStudy/p3.c.i
+
+.PHONY : functionsStudy/p3.i
+
+# target to preprocess a source file
+functionsStudy/p3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/functionsStudy/p3.c.i
+.PHONY : functionsStudy/p3.c.i
+
+functionsStudy/p3.s: functionsStudy/p3.c.s
+
+.PHONY : functionsStudy/p3.s
+
+# target to generate assembly for a file
+functionsStudy/p3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/functionsStudy/p3.c.s
+.PHONY : functionsStudy/p3.c.s
+
+functionsStudy/recursiveStudy/concept.obj: functionsStudy/recursiveStudy/concept.c.obj
+
+.PHONY : functionsStudy/recursiveStudy/concept.obj
+
+# target to build an object file
+functionsStudy/recursiveStudy/concept.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/concept.c.obj
+.PHONY : functionsStudy/recursiveStudy/concept.c.obj
+
+functionsStudy/recursiveStudy/concept.i: functionsStudy/recursiveStudy/concept.c.i
+
+.PHONY : functionsStudy/recursiveStudy/concept.i
+
+# target to preprocess a source file
+functionsStudy/recursiveStudy/concept.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/concept.c.i
+.PHONY : functionsStudy/recursiveStudy/concept.c.i
+
+functionsStudy/recursiveStudy/concept.s: functionsStudy/recursiveStudy/concept.c.s
+
+.PHONY : functionsStudy/recursiveStudy/concept.s
+
+# target to generate assembly for a file
+functionsStudy/recursiveStudy/concept.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/concept.c.s
+.PHONY : functionsStudy/recursiveStudy/concept.c.s
+
+functionsStudy/recursiveStudy/myFactorial.obj: functionsStudy/recursiveStudy/myFactorial.c.obj
+
+.PHONY : functionsStudy/recursiveStudy/myFactorial.obj
+
+# target to build an object file
+functionsStudy/recursiveStudy/myFactorial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFactorial.c.obj
+.PHONY : functionsStudy/recursiveStudy/myFactorial.c.obj
+
+functionsStudy/recursiveStudy/myFactorial.i: functionsStudy/recursiveStudy/myFactorial.c.i
+
+.PHONY : functionsStudy/recursiveStudy/myFactorial.i
+
+# target to preprocess a source file
+functionsStudy/recursiveStudy/myFactorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFactorial.c.i
+.PHONY : functionsStudy/recursiveStudy/myFactorial.c.i
+
+functionsStudy/recursiveStudy/myFactorial.s: functionsStudy/recursiveStudy/myFactorial.c.s
+
+.PHONY : functionsStudy/recursiveStudy/myFactorial.s
+
+# target to generate assembly for a file
+functionsStudy/recursiveStudy/myFactorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFactorial.c.s
+.PHONY : functionsStudy/recursiveStudy/myFactorial.c.s
+
+functionsStudy/recursiveStudy/myFib.obj: functionsStudy/recursiveStudy/myFib.c.obj
+
+.PHONY : functionsStudy/recursiveStudy/myFib.obj
+
+# target to build an object file
+functionsStudy/recursiveStudy/myFib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFib.c.obj
+.PHONY : functionsStudy/recursiveStudy/myFib.c.obj
+
+functionsStudy/recursiveStudy/myFib.i: functionsStudy/recursiveStudy/myFib.c.i
+
+.PHONY : functionsStudy/recursiveStudy/myFib.i
+
+# target to preprocess a source file
+functionsStudy/recursiveStudy/myFib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFib.c.i
+.PHONY : functionsStudy/recursiveStudy/myFib.c.i
+
+functionsStudy/recursiveStudy/myFib.s: functionsStudy/recursiveStudy/myFib.c.s
+
+.PHONY : functionsStudy/recursiveStudy/myFib.s
+
+# target to generate assembly for a file
+functionsStudy/recursiveStudy/myFib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/myFib.c.s
+.PHONY : functionsStudy/recursiveStudy/myFib.c.s
+
+functionsStudy/recursiveStudy/my_strlen.obj: functionsStudy/recursiveStudy/my_strlen.c.obj
+
+.PHONY : functionsStudy/recursiveStudy/my_strlen.obj
+
+# target to build an object file
+functionsStudy/recursiveStudy/my_strlen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/my_strlen.c.obj
+.PHONY : functionsStudy/recursiveStudy/my_strlen.c.obj
+
+functionsStudy/recursiveStudy/my_strlen.i: functionsStudy/recursiveStudy/my_strlen.c.i
+
+.PHONY : functionsStudy/recursiveStudy/my_strlen.i
+
+# target to preprocess a source file
+functionsStudy/recursiveStudy/my_strlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/my_strlen.c.i
+.PHONY : functionsStudy/recursiveStudy/my_strlen.c.i
+
+functionsStudy/recursiveStudy/my_strlen.s: functionsStudy/recursiveStudy/my_strlen.c.s
+
+.PHONY : functionsStudy/recursiveStudy/my_strlen.s
+
+# target to generate assembly for a file
+functionsStudy/recursiveStudy/my_strlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/my_strlen.c.s
+.PHONY : functionsStudy/recursiveStudy/my_strlen.c.s
+
+functionsStudy/recursiveStudy/test.obj: functionsStudy/recursiveStudy/test.c.obj
+
+.PHONY : functionsStudy/recursiveStudy/test.obj
+
+# target to build an object file
+functionsStudy/recursiveStudy/test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/test.c.obj
+.PHONY : functionsStudy/recursiveStudy/test.c.obj
+
+functionsStudy/recursiveStudy/test.i: functionsStudy/recursiveStudy/test.c.i
+
+.PHONY : functionsStudy/recursiveStudy/test.i
+
+# target to preprocess a source file
+functionsStudy/recursiveStudy/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/test.c.i
+.PHONY : functionsStudy/recursiveStudy/test.c.i
+
+functionsStudy/recursiveStudy/test.s: functionsStudy/recursiveStudy/test.c.s
+
+.PHONY : functionsStudy/recursiveStudy/test.s
+
+# target to generate assembly for a file
+functionsStudy/recursiveStudy/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\concept.dir\build.make CMakeFiles/concept.dir/functionsStudy/recursiveStudy/test.c.s
+.PHONY : functionsStudy/recursiveStudy/test.c.s
 
 # Help Target
 help:
@@ -176,10 +391,33 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... structConcept
-	@echo ... day1/structConcept.obj
-	@echo ... day1/structConcept.i
-	@echo ... day1/structConcept.s
+	@echo ... concept
+	@echo ... maxFunction
+	@echo ... p3
+	@echo ... functionsStudy/functionDeclarations/maxFunction.obj
+	@echo ... functionsStudy/functionDeclarations/maxFunction.i
+	@echo ... functionsStudy/functionDeclarations/maxFunction.s
+	@echo ... functionsStudy/functionDeclarations/text.obj
+	@echo ... functionsStudy/functionDeclarations/text.i
+	@echo ... functionsStudy/functionDeclarations/text.s
+	@echo ... functionsStudy/p3.obj
+	@echo ... functionsStudy/p3.i
+	@echo ... functionsStudy/p3.s
+	@echo ... functionsStudy/recursiveStudy/concept.obj
+	@echo ... functionsStudy/recursiveStudy/concept.i
+	@echo ... functionsStudy/recursiveStudy/concept.s
+	@echo ... functionsStudy/recursiveStudy/myFactorial.obj
+	@echo ... functionsStudy/recursiveStudy/myFactorial.i
+	@echo ... functionsStudy/recursiveStudy/myFactorial.s
+	@echo ... functionsStudy/recursiveStudy/myFib.obj
+	@echo ... functionsStudy/recursiveStudy/myFib.i
+	@echo ... functionsStudy/recursiveStudy/myFib.s
+	@echo ... functionsStudy/recursiveStudy/my_strlen.obj
+	@echo ... functionsStudy/recursiveStudy/my_strlen.i
+	@echo ... functionsStudy/recursiveStudy/my_strlen.s
+	@echo ... functionsStudy/recursiveStudy/test.obj
+	@echo ... functionsStudy/recursiveStudy/test.i
+	@echo ... functionsStudy/recursiveStudy/test.s
 .PHONY : help
 
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day1/structConcept.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day2/p0.c" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/functionsStudy/p01.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/functionsStudy/p2.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/functionsStudy/recursiveStudy/test.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/main.c" charset="GBK" />
   </component>
 </project>
