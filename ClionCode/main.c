@@ -1,5 +1,5 @@
 #include <stdio.h>
-void test()
+/*void test()
 {
     static int a = 1;
     a++;
@@ -7,12 +7,12 @@ void test()
 }
 
 int main() {
-/*    enum Color{
+*//*    enum Color{
         Red,
         Blue,
         Yellow
 
-    };*/
+    };*//*
     int i = 0;
     while ( i < 5)
     {
@@ -21,4 +21,6 @@ int main() {
     }
 
     return 0;
-}
+}*/
+//*******************************************8
+//´´

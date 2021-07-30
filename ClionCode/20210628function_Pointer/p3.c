@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef struct Stu* s;
+typedef struct Stu* p;
 
 //传统冒泡排序函数
 void bubble_sort(int arr[], int sizeArr) {
@@ -36,6 +36,7 @@ void test1() {
     int sizeArr = sizeof(arr) / sizeof(arr[0]);
     //bubble_sort(arr, sizeArr);
     qsort(arr, sizeArr, sizeof(arr[0]), compare_int);
+    //
     for (int i = 0; i < sizeArr; i++) {
         printf("%d ", arr[i]);
     }
@@ -68,20 +69,22 @@ void test2() {
 
 //*************************************************************
 // struct comparing function
+struct Stu {
+    char name[20];
+    int age;
+};
 int compare_stu_by_age(const void *e1, const void *e2) {
-    return ((s) e1) -> age - ((struct Stu *) e2) -> age;
+    return ((struct Stu *) e1) -> age - ((struct Stu *) e2) -> age;
+    return ((struct Stu*)e1)->age - ((struct Stu*)e2)->age;
 }
 int compare_stu_by_name(const void *e1, const void *e2)
 {
-   return strcmp( ((s) e1) -> name - ((struct Stu *) e2) -> name);
+   return strcmp( ((struct Stu *) e1)->name , ((struct Stu *) e2) -> name );
 }
 
 //结构体类型排序
 void test3() {
-    struct Stu {
-        char name[20];
-        int age;
-    };
+
 
     struct Stu s[3] = {
             {"Zhang,San", 30},
@@ -96,7 +99,7 @@ void test3() {
 
 int main() {
     // test1();
-    test2();
+    //test2();
     test3();
 
 
