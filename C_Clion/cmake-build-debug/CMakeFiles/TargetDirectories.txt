@@ -1,0 +1,15 @@
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/NarcissisticNumber.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/p0.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/ChessGotest.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/parameter_pointer.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/p1.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/main.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/p2.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/parameter_1D_Array.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/p3.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/test.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/function_bubble_Sort.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/p4.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/P1.dir
+E:/OneDrive - University of New Brunswick/githubRepository/C_Code/C_Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

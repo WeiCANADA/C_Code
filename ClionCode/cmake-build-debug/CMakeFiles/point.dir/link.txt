@@ -1,3 +1,0 @@
-"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\point.dir/objects.a
-D:\CLION2~1.1\mingw64\mingw64\bin\ar.exe cr CMakeFiles\point.dir/objects.a @CMakeFiles\point.dir\objects1.rsp
-D:\CLION2~1.1\mingw64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\point.dir/objects.a -Wl,--no-whole-archive -o point.exe -Wl,--out-implib,libpoint.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\point.dir\linklibs.rsp

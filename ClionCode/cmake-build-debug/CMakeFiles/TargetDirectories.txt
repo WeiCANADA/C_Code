@@ -1,5 +1,0 @@
-E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/maxFunction.dir
-E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/p3.dir
-E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/concept.dir
-E:/OneDrive - University of New Brunswick/githubRepository/C_Code/ClionCode/cmake-build-debug/CMakeFiles/edit_cache.dir
